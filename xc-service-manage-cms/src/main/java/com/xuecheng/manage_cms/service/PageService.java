@@ -2,51 +2,61 @@ package com.xuecheng.manage_cms.service;
 
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
-import com.xuecheng.framework.model.response.CommonCode;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.QueryResponseResult;
-import com.xuecheng.framework.model.response.QueryResult;
-import com.xuecheng.manage_cms.dao.CmsPageRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
+import com.xuecheng.framework.model.response.ResponseResult;
 
-/**
- * @author Administrator
- * @version 1.0
- * @create 2018-09-12 18:32
- **/
-@Service
-public class PageService {
-
-    @Autowired
-    CmsPageRepository cmsPageRepository;
-
+public interface PageService {
 
     /**
-     * 页面查询方法
-     * @param page 页码，从1开始记数
-     * @param size 每页记录数
-     * @param queryPageRequest 查询条件
+     * 分页查询
+     * @param page
+     * @param size
+     * @param queryPageRequest
      * @return
      */
-    public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest){
+    public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest);
 
-        //分页参数
-        if(page <=0){
-            page = 1;
-        }
-        page = page -1;
-        if(size<=0){
-            size = 10;
-        }
-        Pageable pageable = PageRequest.of(page,size);
-        Page<CmsPage> all = cmsPageRepository.findAll(pageable);
-        QueryResult queryResult = new QueryResult();
-        queryResult.setList(all.getContent());//数据列表
-        queryResult.setTotal(all.getTotalElements());//数据总记录数
-        QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS,queryResult);
-        return queryResponseResult;
-    }
+    /**
+     * 新增页面操作
+     * @param cmsPage
+     * @return
+     */
+    public CmsPageResult add(CmsPage cmsPage);
+
+    /**
+     * 通过id获取页面
+     * @param id
+     * @return
+     */
+    public CmsPage getById(String id);
+
+    /**
+     * 修改页面
+     * @param id
+     * @param cmsPage
+     * @return
+     */
+    public CmsPageResult update(String id,CmsPage cmsPage);
+
+    /**
+     * 通过id删除页面
+     * @param id
+     * @return
+     */
+    public ResponseResult delete(String id);
+
+    /**
+     * 页面静态化方法
+     * @param pageId
+     * @return
+     */
+    public String getPageHtml(String pageId);
+
+    /**
+     * 页面发布
+     * @param pageId
+     * @return
+     */
+    public ResponseResult postPage(String pageId);
 }
