@@ -2,6 +2,7 @@ package com.xuecheng.manage_course.service;
 
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.CoursePic;
+import com.xuecheng.framework.domain.course.ext.CourseView;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.domain.course.response.AddCourseResult;
@@ -61,4 +62,11 @@ public interface CourseService {
      * @return
      */
     public ResponseResult deleteCoursePic(String courseId);
+
+    /**
+     * 课程视图查询
+     * @param id 课程id
+     * @return
+     */
+    public CourseView getCoruseView(String id);
 }

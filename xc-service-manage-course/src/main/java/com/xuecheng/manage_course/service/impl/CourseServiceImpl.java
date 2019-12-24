@@ -3,8 +3,11 @@ package com.xuecheng.manage_course.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.CoursePic;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
+import com.xuecheng.framework.domain.course.ext.CourseView;
+import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.domain.course.response.AddCourseResult;
 import com.xuecheng.framework.exception.ExceptionCast;
@@ -12,10 +15,7 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.manage_course.dao.CourseBaseRepository;
-import com.xuecheng.manage_course.dao.CourseMapper;
-import com.xuecheng.manage_course.dao.CoursePicRepository;
-import com.xuecheng.manage_course.dao.TeachplanMapper;
+import com.xuecheng.manage_course.dao.*;
 import com.xuecheng.manage_course.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,10 +30,16 @@ public class CourseServiceImpl implements CourseService {
     private CourseMapper courseMapper;
 
     @Autowired
+    private TeachplanMapper teachplanMapper;
+
+    @Autowired
     private CourseBaseRepository courseBaseRepository;
 
     @Autowired
     private CoursePicRepository coursePicRepository;
+
+    @Autowired
+    private CourseMarketRepository courseMarketRepository;
 
     @Override
     public QueryResponseResult findCourseList(int page, int size, CourseListRequest courseListRequest) {
@@ -142,5 +148,29 @@ public class CourseServiceImpl implements CourseService {
         }else {
             return new ResponseResult(CommonCode.FAIL);
         }
+    }
+
+    @Override
+    public CourseView getCoruseView(String id) {
+        CourseView courseView = new CourseView();
+        // 查询课程基础信息
+        Optional<CourseBase> courseBaseOptional = courseBaseRepository.findById(id);
+        if(courseBaseOptional.isPresent()){
+            courseView.setCourseBase(courseBaseOptional.get());
+        }
+        // 查询课程营销信息
+        Optional<CourseMarket> marketOptional = courseMarketRepository.findById(id);
+        if (marketOptional.isPresent()){
+            courseView.setCourseMarket(marketOptional.get());
+        }
+        // 查询课程图片信息
+        Optional<CoursePic> picOptional = coursePicRepository.findById(id);
+        if (picOptional.isPresent()){
+            courseView.setCoursePic(picOptional.get());
+        }
+        // 查询课程计划
+        TeachplanNode teachplanNode = teachplanMapper.selectList(id);
+        courseView.setTeachplanNode(teachplanNode);
+        return courseView;
     }
 }
