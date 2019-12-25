@@ -1,5 +1,6 @@
 package com.xuecheng.manage_course.service;
 
+import com.xuecheng.framework.domain.cms.response.CoursePublishResult;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.CoursePic;
 import com.xuecheng.framework.domain.course.ext.CourseView;
@@ -69,4 +70,6 @@ public interface CourseService {
      * @return
      */
     public CourseView getCoruseView(String id);
+
+    CoursePublishResult preview(String id);
 }

@@ -206,6 +206,19 @@ public class PageServiceImpl implements PageService {
         return null;
     }
 
+    @Override
+    public CmsPageResult save(CmsPage cmsPage) {
+        //校验页面是否存在，根据页面名称、站点Id、页面webpath查询
+        CmsPage one = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (one != null){
+            // 执行更新操作
+            return this.update(one.getPageId(), cmsPage);
+        } else{
+            // 执行新增操作
+            return  this.add(cmsPage);
+        }
+    }
+
     /**
      * 发送消息
      * @param pageId
@@ -272,6 +285,7 @@ public class PageServiceImpl implements PageService {
         }
         // 获取出dataUrl
         String dataUrl = byId.getDataUrl();
+       // dataUrl = dataUrl.replace("localhost:31200", "XC-SERVICE-MANAGE-CMS");
         if(StringUtils.isEmpty(dataUrl)){
             ExceptionCast.cast(CmsCode.CMS_GENERATEHTML_DATAURLISNULL);
         }

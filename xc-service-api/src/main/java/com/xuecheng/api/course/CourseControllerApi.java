@@ -1,5 +1,6 @@
 package com.xuecheng.api.course;
 
+import com.xuecheng.framework.domain.cms.response.CoursePublishResult;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.CoursePic;
@@ -52,5 +53,8 @@ public interface CourseControllerApi {
 
     @ApiOperation("课程视图查询")
     public CourseView courseview(String id);
+
+    @ApiOperation("课程预览")
+    public CoursePublishResult preview(String id);
 
 }

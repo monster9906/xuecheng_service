@@ -59,4 +59,11 @@ public interface PageService {
      * @return
      */
     public ResponseResult postPage(String pageId);
+
+    /**
+     * 保存页面
+     * @param cmsPage
+     * @return
+     */
+    CmsPageResult save(CmsPage cmsPage);
 }

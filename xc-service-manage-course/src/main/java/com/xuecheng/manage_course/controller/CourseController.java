@@ -1,6 +1,7 @@
 package com.xuecheng.manage_course.controller;
 
 import com.xuecheng.api.course.CourseControllerApi;
+import com.xuecheng.framework.domain.cms.response.CoursePublishResult;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.CoursePic;
@@ -98,5 +99,11 @@ public class CourseController implements CourseControllerApi{
     @GetMapping("/courseview/{id}")
     public CourseView courseview(@PathVariable("id") String id) {
         return courseService.getCoruseView(id);
+    }
+
+    @Override
+    @PostMapping("/preview/{id}")
+    public CoursePublishResult preview(@PathVariable("id") String id) {
+        return courseService.preview(id);
     }
 }
