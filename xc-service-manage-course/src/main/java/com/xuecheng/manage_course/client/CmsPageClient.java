@@ -3,6 +3,7 @@ package com.xuecheng.manage_course.client;
 import com.xuecheng.framework.client.XcServiceList;
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.response.CmsPageResult;
+import com.xuecheng.framework.domain.cms.response.CmsPostPageResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,4 +22,13 @@ public interface CmsPageClient {
      */
     @PostMapping("/cms/page/save")
     public CmsPageResult save(@RequestBody CmsPage cmsPage);
+
+    /**
+     *@descripotion 一键发布页面
+     *@params  [cmsPage]
+     *@auth  monsterFu
+     *@date  2019/12/26
+     */
+    @PostMapping("/cms/page/postPageQuick")
+    public CmsPostPageResult postPageQuick(CmsPage cmsPage);
 }

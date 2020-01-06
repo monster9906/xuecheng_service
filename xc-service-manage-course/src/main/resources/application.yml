@@ -40,5 +40,5 @@ course-publish:
     templateId: 5abf57965b05aa2ebcfce6d1
     previewUrl: http://www.soul.com/cms/preview/
     pageWebPath: /course/detail/
-    pagePhysicalPath: /course/detail/
+    pagePhysicalPath: D:/qian_space/static/course/detail/
     dataUrlPre: http://localhost:31200/course/courseview/

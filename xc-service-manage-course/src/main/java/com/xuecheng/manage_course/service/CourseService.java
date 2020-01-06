@@ -70,6 +70,19 @@ public interface CourseService {
      * @return
      */
     public CourseView getCoruseView(String id);
-
+    /**
+     *@descripotion 课程预览
+     *@params  [id]
+     *@auth  monsterFu
+     *@date  2019/12/26
+     */
     CoursePublishResult preview(String id);
+    
+    /**
+     *@descripotion 
+     *@params  页面一键发布
+     *@auth  monsterFu
+     *@date  2019/12/26
+     */
+    CoursePublishResult publish(String id);
 }
