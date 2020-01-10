@@ -38,9 +38,6 @@ public class VideoUtil {
 
     //获取视频时间(时：分：秒：毫秒)
     public String get_video_time(String video_path) {
-        /*
-        ffmpeg -i  lucene.mp4
-         */
         List<String> commend = new ArrayList<String>();
         commend.add(ffmpeg_path);
         commend.add("-i");

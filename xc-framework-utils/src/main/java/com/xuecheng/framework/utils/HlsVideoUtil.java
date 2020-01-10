@@ -30,7 +30,7 @@ public class HlsVideoUtil extends  VideoUtil {
         if(!m3u8dir.exists()){
             m3u8dir.mkdirs();
         }
-       /* if(m3u8dir.exists()&&m3u8_path.indexOf("/hls/")>=0){//在hls目录方可删除，以免错误删除
+       /*if(m3u8dir.exists()&&m3u8_path.indexOf("/hls/")>=0){//在hls目录方可删除，以免错误删除
             String[] children = m3u8dir.list();
             //删除目录中的文件
             for (int i = 0; i < children.length; i++) {
@@ -49,9 +49,6 @@ public class HlsVideoUtil extends  VideoUtil {
     public String generateM3u8(){
         //清理m3u8文件目录
         clear_m3u8(m3u8folder_path);
- /*
-        ffmpeg -i  lucene.mp4   -hls_time 10 -hls_list_size 0   -hls_segment_filename ./hls/lucene_%05d.ts ./hls/lucene.m3u8
-         */
 //        String m3u8_name = video_name.substring(0, video_name.lastIndexOf("."))+".m3u8";
         List<String> commend = new ArrayList<String>();
         commend.add(ffmpeg_path);
@@ -62,9 +59,7 @@ public class HlsVideoUtil extends  VideoUtil {
         commend.add("-hls_list_size");
         commend.add("0");
         commend.add("-hls_segment_filename");
-//        commend.add("D:/BaiduNetdiskDownload/Movies/test1/test1_%05d.ts");
         commend.add(m3u8folder_path  + m3u8_name.substring(0,m3u8_name.lastIndexOf(".")) + "_%05d.ts");
-//        commend.add("D:/BaiduNetdiskDownload/Movies/test1/test1.m3u8");
         commend.add(m3u8folder_path  + m3u8_name );
         String outstring = null;
         try {
@@ -116,7 +111,6 @@ public class HlsVideoUtil extends  VideoUtil {
                 if(bottomline.endsWith(".ts")){
                     tsList.add(bottomline);
                 }
-                //System.out.println(str);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -142,7 +136,7 @@ public class HlsVideoUtil extends  VideoUtil {
 
 
     public static void main(String[] args) throws IOException {
-        String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
+        String ffmpeg_path = "D:/software/ffmpeg-win64/bin/ffmpeg.exe";
         String video_path = "E:\\ffmpeg_test\\1.mp4";
         String m3u8_name = "1.m3u8";
         String m3u8_path = "E:\\ffmpeg_test\\1\\";

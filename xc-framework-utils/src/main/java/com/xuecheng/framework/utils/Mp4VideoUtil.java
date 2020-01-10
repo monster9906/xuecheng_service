@@ -39,14 +39,13 @@ public class Mp4VideoUtil extends VideoUtil {
         ffmpeg.exe -i  lucene.avi -c:v libx264 -s 1280x720 -pix_fmt yuv420p -b:a 63k -b:v 753k -r 18 .\lucene.mp4
          */
         List<String> commend = new ArrayList<String>();
-        //commend.add("D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe");
         commend.add(ffmpeg_path);
         commend.add("-i");
-//        commend.add("D:\\BaiduNetdiskDownload\\test1.avi");
         commend.add(video_path);
         commend.add("-c:v");
         commend.add("libx264");
-        commend.add("-y");//覆盖输出文件
+        //覆盖输出文件
+        commend.add("-y");
         commend.add("-s");
         commend.add("1280x720");
         commend.add("-pix_fmt");
@@ -80,13 +79,4 @@ public class Mp4VideoUtil extends VideoUtil {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
-        String video_path = "E:\\ffmpeg_test\\1.avi";
-        String mp4_name = "809694a6a974c35e3a36f36850837d7c.mp4";
-        String mp4_path = "F:/develop/upload/8/0/809694a6a974c35e3a36f36850837d7c/";
-        Mp4VideoUtil videoUtil = new Mp4VideoUtil(ffmpeg_path,video_path,mp4_name,mp4_path);
-        String s = videoUtil.generateMp4();
-        System.out.println(s);
-    }
 }

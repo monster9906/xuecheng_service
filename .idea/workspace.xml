@@ -5,98 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84761872-e804-479d-9ac2-8928051d57f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsPostPageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePubRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/config/ElasticsearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestDoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/SearchApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/config/ElasticsearchConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/xc-service-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/media/MediaUploadControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/ManageMediaProcessorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/dao/MediaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/mq/MediaProcessTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/src/test/java/com/xuecheng/manage_media_process/TestProcessBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media-processor/xc-service-manage-media-processor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/ManageMediaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/dao/MediaFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/service/MediaUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/src/test/java/com/xuecheng/manage_media/TestFlies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/ManageMediaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/com/xuecheng/manage_media/dao/MediaFileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/test-classes/com/xuecheng/manage_media/TestUploadFile$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/target/test-classes/com/xuecheng/manage_media/TestUploadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-media/xc-service-manage-media.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-common/target/classes/com/xuecheng/framework/model/response/QueryResponseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/target/classes/com/xuecheng/framework/model/response/QueryResponseResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/response/CourseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/response/CourseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/search/CourseSearchParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/search/CourseSearchParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePub.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CourseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CourseCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/impl/PageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/impl/PageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/impl/PageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/impl/PageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CourseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/xc-service-manage-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/xc-service-manage-course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-fastdfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-fastdfs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/media/response/MediaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/media/response/MediaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/HlsVideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/HlsVideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/Mp4VideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/Mp4VideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/VideoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/VideoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/HlsVideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/HlsVideoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/Mp4VideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/Mp4VideoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/VideoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/target/classes/com/xuecheng/framework/utils/VideoUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,20 +102,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manage-media-processor" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24597701" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.manage_media.config" />
       <recent name="com.xuecheng.manage_course.dao" />
       <recent name="com.xuecheng.manage_course.client" />
       <recent name="com.xuecheng.api.course" />
       <recent name="com.xuecheng.manage_course.service.impl" />
-      <recent name="com.xuecheng.manage_course.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xuecheng_service\test_freemarker\src\main\java\com\xuecheng" />
@@ -168,82 +125,82 @@
       <recent name="D:\xuecheng_service\xc-service-manage-course\src\main\resources\com\xuecheng\manage_course\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SearchApplication">
-    <configuration name="TestSearch.testBoolQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-search" />
+  <component name="RunManager" selected="JUnit.TestProcessBuilder.testHlsVideo">
+    <configuration name="TestFlies.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-media" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_media.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
-      <option name="METHOD_NAME" value="testBoolQuery" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media.TestFlies" />
+      <option name="METHOD_NAME" value="testMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.testFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-search" />
+    <configuration name="TestProcessBuilder.testFFmpeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-media-processor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
-      <option name="METHOD_NAME" value="testFilter" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
+      <option name="METHOD_NAME" value="testFFmpeg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.testHighlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-search" />
+    <configuration name="TestProcessBuilder.testHlsVideo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-media-processor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
-      <option name="METHOD_NAME" value="testHighlight" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
+      <option name="METHOD_NAME" value="testHlsVideo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.testQuerymultiQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-search" />
+    <configuration name="TestProcessBuilder.testMp4Utiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-media-processor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
-      <option name="METHOD_NAME" value="testQuerymultiQuery" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
+      <option name="METHOD_NAME" value="testMp4Utiles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-search" />
+    <configuration name="TestProcessBuilder.testProcessBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-manage-media-processor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
-      <option name="METHOD_NAME" value="testSort" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
+      <option name="METHOD_NAME" value="testProcessBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,6 +270,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManageMediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manage-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_media.ManageMediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageMediaProcessorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-manage-media-processor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_media_process.ManageMediaProcessorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xc-service-search" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.search.SearchApplication" />
@@ -349,11 +320,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestSearch.testQuerymultiQuery" />
-      <item itemvalue="JUnit.TestSearch.testBoolQuery" />
-      <item itemvalue="JUnit.TestSearch.testFilter" />
-      <item itemvalue="JUnit.TestSearch.testSort" />
-      <item itemvalue="JUnit.TestSearch.testHighlight" />
+      <item itemvalue="JUnit.TestFlies.testMerge" />
+      <item itemvalue="JUnit.TestProcessBuilder.testProcessBuilder" />
+      <item itemvalue="JUnit.TestProcessBuilder.testFFmpeg" />
+      <item itemvalue="JUnit.TestProcessBuilder.testMp4Utiles" />
+      <item itemvalue="JUnit.TestProcessBuilder.testHlsVideo" />
       <item itemvalue="Spring Boot.Govern01" />
       <item itemvalue="Spring Boot.Govern02" />
       <item itemvalue="Spring Boot.ManageCmsApplication01" />
@@ -367,14 +338,16 @@
       <item itemvalue="Spring Boot.XcFrameworkCommonApplication" />
       <item itemvalue="Spring Boot.XcFrameworkParentApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.ManageMediaApplication" />
+      <item itemvalue="Spring Boot.ManageMediaProcessorApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSearch.testHighlight" />
-        <item itemvalue="JUnit.TestSearch.testSort" />
-        <item itemvalue="JUnit.TestSearch.testFilter" />
-        <item itemvalue="JUnit.TestSearch.testBoolQuery" />
-        <item itemvalue="JUnit.TestSearch.testQuerymultiQuery" />
+        <item itemvalue="JUnit.TestProcessBuilder.testHlsVideo" />
+        <item itemvalue="JUnit.TestProcessBuilder.testMp4Utiles" />
+        <item itemvalue="JUnit.TestProcessBuilder.testFFmpeg" />
+        <item itemvalue="JUnit.TestProcessBuilder.testProcessBuilder" />
+        <item itemvalue="JUnit.TestFlies.testMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -448,6 +421,11 @@
       <workItem from="1578098117778" duration="117000" />
       <workItem from="1578099216391" duration="454000" />
       <workItem from="1578099693254" duration="14185000" />
+      <workItem from="1578306981628" duration="60000" />
+      <workItem from="1578364178994" duration="2648000" />
+      <workItem from="1578449456996" duration="16745000" />
+      <workItem from="1578532029065" duration="19693000" />
+      <workItem from="1578618277541" duration="17301000" />
     </task>
     <task id="LOCAL-00001" summary="学成在线第8天相关内容的完成，搭建了fastDFS分布式文件系统">
       <created>1576922713051</created>
@@ -470,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577265765620</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="学成在线中课程预览的完成">
+      <created>1578307037562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578307037562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,6 +468,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="学成在线中课程预览的完成" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Auto_Import" timestamp="1578642352828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1578642352828" />
     <state x="552" y="178" key="#Inspections" timestamp="1577967354505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,10 +492,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577081273524" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1578117233120">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1578482729876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578117233120" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578482729876" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577069323875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -527,14 +516,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577238628576" />
-    <state x="337" y="113" key="CommitChangelistDialog2" timestamp="1577265761483">
+    <state x="337" y="113" key="CommitChangelistDialog2" timestamp="1578307035236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577265761483" />
-    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1577758651422">
+    <state x="337" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578307035236" />
+    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1578554288760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577758651422" />
+    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578554288760" />
     <state x="808" y="410" key="Github.ShareDialog" timestamp="1575969280888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -543,66 +532,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575969300557" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578132310598">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578652179851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310598" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578132310598">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179851" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578652179850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310598" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578132310598">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179850" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578652179850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310598" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578132310598">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179850" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578652179850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310598" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578132310587">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179850" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1578652179837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179837" />
+    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1578652179837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179837" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1578652179837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179837" />
+    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1578652179837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179837" />
+    <state width="1877" height="384" key="GridCell.Tab.2.bottom" timestamp="1578652179838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179838" />
+    <state width="1877" height="384" key="GridCell.Tab.2.center" timestamp="1578652179838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179838" />
+    <state width="1877" height="384" key="GridCell.Tab.2.left" timestamp="1578652179838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1578132310587">
+    <state width="1877" height="384" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179838" />
+    <state width="1877" height="384" key="GridCell.Tab.2.right" timestamp="1578652179838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578132310587" />
-    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1577752824283">
+    <state width="1877" height="384" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578652179838" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1578554291485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577752824283" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578554291485" />
     <state x="632" y="230" key="RollbackChangesDialog" timestamp="1576667987093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="632" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576667987093" />
-    <state x="440" y="94" width="1281" height="716" key="SettingsEditor" timestamp="1578117793768">
+    <state x="440" y="94" width="1281" height="716" key="SettingsEditor" timestamp="1578554299622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" width="1281" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578117793768" />
+    <state x="440" y="94" width="1281" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578554299622" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577265807458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,14 +612,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="298" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576122985238" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1578113276187">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578556345217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578113276187" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577266793714">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578556345217" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578484307000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577266793714" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578484307000" />
     <state x="797" y="418" key="svn.passwordDialog" timestamp="1577238848671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
